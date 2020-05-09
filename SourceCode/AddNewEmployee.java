@@ -21,8 +21,7 @@ public class AddNewEmployee {
 				emp.GetName() + "','" + emp.GetID() + "','" + emp.GetContactNumber() + 
 				"'," + emp.GetEmployeeType() + "," + emp.GetUnionCharge() + "," +
 				emp.GetSalary() + "," + emp.GetSalaryPHr() + "," + emp.GetComissionRate() + 
-				"," + emp.GetPaymentType() + ")";
-				System.out.println(temp);
+				"," + emp.GetPaymentType() + "," + "0" + ")";
 				stmt.executeUpdate(temp);
 				con.close();
 			}
